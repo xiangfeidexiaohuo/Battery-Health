@@ -1,10 +1,14 @@
-TARGET = iphone:clang:15.6:11.0
-PACKAGE_VERSION = 1.0.1
+DEBUG = 0
+FINALPACKAGE=1
+THEOS_USE_NEW_ABI=1
+export TARGET = iphone:clang:latest:13.0
+ARCHS = arm64 arm64e
+
 INSTALL_TARGET_PROCESSES = Preferences
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = BatteryHealthEnabler
+TWEAK_NAME = BatteryHealth
 
 $(TWEAK_NAME)_FILES = Tweak.x
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc
