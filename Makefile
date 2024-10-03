@@ -1,8 +1,11 @@
 DEBUG = 0
 FINALPACKAGE=1
 THEOS_USE_NEW_ABI=1
-export TARGET = iphone:clang:latest:13.0
+export TARGET = iphone:clang:16.5:11.0
 ARCHS = arm64 arm64e
+
+THEOS_PACKAGE_SCHEME = rootless
+# THEOS_PACKAGE_SCHEME = roothide
 
 INSTALL_TARGET_PROCESSES = Preferences
 

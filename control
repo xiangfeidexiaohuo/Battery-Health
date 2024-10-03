@@ -1,8 +1,8 @@
 Package: com.dao.batteryhealth
 Name: BatteryHealth(rootless)
-Version: 1.0.2
+Version: 1.0.1
 Architecture: iphoneos-arm
-Description: 修复更换电池后，电池健康显示维修或无法验证的问题。
+Description: 修复更换电池后，电池健康显示维修或无法验证的问题，无设置，自动生效。
 Maintainer: PoomSmart
 Author: PoomSmart
 Section: 嗨-工具
